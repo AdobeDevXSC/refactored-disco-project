@@ -27,6 +27,12 @@
     ]
   },
   {
+    "id": "testimonials",
+    "components": [
+      "testimonial"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
