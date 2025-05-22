@@ -1,5 +1,60 @@
 [
   {
+    "id": "page-metadata",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "jcr:title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "jcr:description",
+        "label": "Description"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author(s)"
+      },
+      {
+        "component": "select",
+        "name": "template",
+        "label": "Template",
+        "multi": true,
+        "options": [
+          {
+            "name": "Gradient to Right",
+            "value": "gradient, toright"
+          },
+          {
+            "name": "Gradient to Left",
+            "value": "gradient, toleft"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "theme",
+        "label": "Theme",
+        "multi": true,
+        "options": [
+          {
+            "name": "Margins",
+            "value": "margins"
+          },
+          {
+            "name": "Full Width",
+            "value": "fullwidth"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "image",
     "fields": [
       {
