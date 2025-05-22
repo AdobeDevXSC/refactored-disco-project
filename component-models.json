@@ -24,7 +24,6 @@
         "component": "select",
         "name": "template",
         "label": "Template",
-        "multi": true,
         "options": [
           {
             "name": "Gradient to Right",
@@ -40,7 +39,6 @@
         "component": "select",
         "name": "theme",
         "label": "Theme",
-        "multi": true,
         "options": [
           {
             "name": "Margins",
