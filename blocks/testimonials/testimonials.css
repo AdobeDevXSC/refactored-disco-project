@@ -1,4 +1,4 @@
-main .highlight .slider > div {
+main .testimonials .slider > div {
   text-align: center;
   color: var(--highlight-text-color);
   scroll-snap-align: start;
@@ -14,23 +14,23 @@ main .highlight .slider > div {
   flex-direction: column;
 }
 
-main .section.highlight-container>div {
+main .section.testimonials-container>div {
   max-width: var(--highlight-width);
   padding: 0;
 }
 
-main .section.highlight-container {
+main .section.testimonials-container {
   margin: auto;
 }
 
-main .highlight {
+main .testimonials {
   background-color: var(--highlight-background-color);
   position: relative;
   height: var(--highlight-height);
   text-align: center;
 }
 
-main .highlight .slider {
+main .testimonials .slider {
   max-width: var(--highlight-slider-max-width);
   display: flex;
   flex-direction: row;
@@ -43,7 +43,7 @@ main .highlight .slider {
   overflow: hidden;
 }
 
-main .highlight > a {
+main .testimonials > a {
   display: inline-flex;
   width: .7rem;
   height: .7rem;
@@ -56,77 +56,77 @@ main .highlight > a {
   position: relative;
 }
 
-main .highlight > a:active {
+main .testimonials > a:active {
   top: 1px;
 }
 
-main .highlight > a:focus {
+main .testimonials > a:focus {
   background: var(--link-hover-color);
 }
 
-main .highlight > a:current {
+main .testimonials > a:current {
   background-color: var(--link-selected-color);
 }
 
-main .highlight > a:hover {
+main .testimonials > a:hover {
   background: var(--link-hover-color);
 }
 
-main .highlight .slide {
+main .testimonials .slide {
   width: 100%;
 }
 
-main .highlight .slide h5 {
+main .testimonials .slide h5 {
   font-size: var(--heading-font-size-xl);
 }
 
-main .highlight .slide h4 {
+main .testimonials .slide h4 {
   font-size: var(--heading-font-size-m);
 }
 
-main .highlight .slide h2 {
+main .testimonials .slide h2 {
   margin: 0;
   font-size: var(--heading-font-size-m);
   font-weight: 500px;
 }
 
-main .highlight .slide p {
+main .testimonials .slide p {
   margin: 0;
   font-size: var(--body-font-size-s);
   font-weight: 400;
   line-height: 24px;
 }
 
-main .highlight.gradient.toright {
+main .testimonials.gradient.toright {
   right: unset;
   left: 0;
   background: linear-gradient(90deg, var(--gradient-background-end-color) 0%, var(--gradient-background-start-color) 40%, rgba(162 207 66 / 0%) 90%);
 }
 
-main .highlight.gradient.toleft {
+main .testimonials.gradient.toleft {
   right: 0;
   left: unset;
   background: linear-gradient(270deg, var(--gradient-background-end-color) 0%, var(--gradient-background-start-color) 40%, rgba(162 207 66 / 0%) 90%);
 }
 
-main .section.highlight-container .gradient {
+main .section.testimonials-container .gradient {
   background-color: var(--accent-color);
 }
 
 @media (min-width: 600px) {
-  main .section.highlight-container {
+  main .section.testimonials-container {
     padding: 0;
   }
 }
 
 @media (min-width: 768px) {
-  main .highlight>div>div {
+  main .testimonials>div>div {
     margin: 0 128px 0 0;
   }
 }
 
 @media (min-width: 1024px) {
-  main .highlight>div {
+  main .testimonials>div {
     margin: 0 50px ;
   }
 }
