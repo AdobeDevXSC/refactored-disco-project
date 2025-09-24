@@ -17,20 +17,13 @@
       "columns",
       "fragment",
       "custom-asset-one",
-      "offer",
-      "testimonials"
+      "offer"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
-    ]
-  },
-  {
-    "id": "testimonials",
-    "components": [
-      "testimonial"
     ]
   },
   {

@@ -178,21 +178,6 @@
           }
         },
         {
-          "title": "Testimonial",
-          "id": "testimonial",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Testimonial",
-                  "model": "testimonial"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Columns",
           "id": "columns",
           "plugins": {
