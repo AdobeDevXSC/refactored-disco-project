@@ -1,7 +1,7 @@
 import { createOptimizedPicture } from '../../scripts/scripts.js';
 
 export default async function decorate(block) {
-  const products = 'https://main--demo-boilerplate--lamontacrook.hlx.page/misc/products.json?sheets=tory-burch';
+  const products = 'https://main--demo-boilerplate--lamontacrook.hlx.page/misc/products.json?sheet=wknd';
 
   const lastDiv = [...block.children].pop();
   let skus = lastDiv.querySelector('p');
@@ -10,6 +10,7 @@ export default async function decorate(block) {
 
   const productsResponse = await fetch(products);
   if (productsResponse.ok) {
+    console.log('skus ', skus)
     const p = await productsResponse.json();
     p.data.forEach(product => skus.forEach(sku => {
       if (product.SKU === sku) {

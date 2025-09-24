@@ -18,7 +18,8 @@
       "fragment",
       "custom-asset-one",
       "offer",
-      "product-cards"
+      "product-cards",
+      "testimonials"
     ]
   },
   {
@@ -31,6 +32,12 @@
     "id": "columns",
     "components": [
       "column"
+    ]
+  },
+  {
+    "id": "testimonials",
+    "components": [
+      "testimonial"
     ]
   },
   {
