@@ -10,5 +10,10 @@
     "maxWidth": 2000,
     "minHeight": 500,
     "maxHeight": 2000
+  },
+  "smartCrop": {
+    "enabled": true,
+    "faceDetection": true,
+    "objectDetection": true
   }
 }
