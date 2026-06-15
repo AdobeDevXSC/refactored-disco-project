@@ -209,7 +209,7 @@
         "value": "",
         "label": "Image (DM)",
         "valueType": "string",
-        "configUrl": "https://github.com/AdobeDevXSC/refactored-disco-project/tools/assets-selector/image.config.json",
+        "configUrl": "https://main--refactored-disco-project--adobedevxsc.aem.page/tools/assets-selector/image.config.json",
         "name": "image"
       },
       {
