@@ -209,7 +209,7 @@
         "value": "",
         "label": "Image (DM)",
         "valueType": "string",
-        "configUrl": "https://main--demo-boilerplate-xwalk--lamontacrook.aem.page/tools/assets-selector/image.config.json",
+        "configUrl": "https://github.com/AdobeDevXSC/refactored-disco-project/tools/assets-selector/image.config.json",
         "name": "image"
       },
       {
