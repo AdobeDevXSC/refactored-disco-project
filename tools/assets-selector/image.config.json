@@ -5,6 +5,11 @@
     "delivery-p128352-e1258333.adobeaemcloud.com",
     "author-p128352-e1258333.adobeaemcloud.com"
   ],
+  "aemTierType": [
+    "delivery",
+    "author"
+  ],
+  "alwaysUseDMDelivery": true,
   "preferredDimensions": {
     "minWidth": 500,
     "maxWidth": 2000,
