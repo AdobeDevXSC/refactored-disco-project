@@ -75,11 +75,12 @@
         "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image (DM)",
-        "configUrl": "https://main--demo-boilerplate-xwalk--lamontacrook.hlx.page/tools/assets-selector/image.config.json",
+        "configUrl": "https://main--refactored-disco-project--adobedevxsc.aem.page/tools/assets-selector/image.config.json",
         "valueType": "string"
       },
       {
         "component": "custom-asset-namespace:custom-asset-mimetype",
+        "name": "imageMimeType",
         "valueType": "string"
       },
       {
@@ -214,6 +215,7 @@
       },
       {
         "component": "custom-asset-namespace:custom-asset-mimetype",
+        "name": "imageMimeType",
         "valueType": "string"
       }
     ]
