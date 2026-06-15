@@ -283,23 +283,5 @@
         "label": "Offer"
       }
     ]
-  },
-  {
-    "id": "product-cards",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "headline",
-        "value": "This is a headline",
-        "label": "Headline",
-        "valueType": "string"
-      },
-      {
-        "component": "cf-reference:skus",
-        "name": "sku",
-        "label": "SKU",
-        "valueType": "string"
-      }
-    ]
   }
 ]
