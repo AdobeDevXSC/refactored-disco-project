@@ -10,7 +10,6 @@
     "author"
   ],
   "alwaysUseDMDelivery": true,
-  
   "preferredDimensions": {
     "minWidth": 500,
     "maxWidth": 2000,
